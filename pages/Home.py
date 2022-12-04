@@ -30,7 +30,6 @@ st.title("MappySmileBord'eau")
 
 # create a sidebar
 with st.sidebar:  
-    st.title("Select your mood")
     st.title("")
     link_street_names="https://opendata.bordeaux-metropole.fr/explore/dataset/bor_refvoiesquartiers/download/?format=csv&timezone=Europe/Berlin&lang=fr&use_labels_for_header=true&csv_separator=%3B"
     df_street_names=pd.read_csv(link_street_names,sep=';',usecols=['libellevoie','codepostal'])
