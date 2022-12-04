@@ -5,7 +5,6 @@ Created on Thu Dec  1 11:28:54 2022
 @author: Lucile Lepage
 """
 
-import time
 import pandas as pd 
 import numpy as np
 import requests
